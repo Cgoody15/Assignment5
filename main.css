@@ -1,0 +1,108 @@
+html {
+    color: #000000;
+    font-family: "times new roman", "sans-serif";
+    font-size: 20px
+}
+
+img {
+    padding: 0px 15px 0px 15px;
+}
+
+.main_nav {
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+.main_nav a:hover {
+    color: chartreuse;
+    text-decoration: none;
+    text-decoration-color: #FFFFFF;
+
+}
+
+a:visited {
+    color: green;
+}
+
+.nav {
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+.nav a:hover {
+    color: chartreuse;
+    text-decoration: none;
+    text-decoration-color: #FFFFFF;
+}
+
+
+body {
+    background-image: url(assignment-2/images/full-moon.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #FFFFFF;
+    font-size: 125%;
+}
+
+h1,
+h2 {
+    color: #FFFFFF;
+    font-size: 300%;
+}
+
+.section-quote {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    float: right;
+    width: 170px;
+    height: 375px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.checkbox {
+    font-size: px:
+}
+
+.ul1 {
+    list-style-type: none;
+}
+
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orange;
+}
+
+
+
