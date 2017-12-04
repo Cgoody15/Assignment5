@@ -9,33 +9,40 @@
     <style>
         #loginimage1 {
             margin: 20px;
-            padding:5px;
+            padding: 5px;
             height: 400px;
         }
-         h1 {
+
+        h1 {
             margin: 20px;
         }
-        .login{
+
+        .login {
             font-size: 150%;
         }
-        input{
+
+        input {
             font-size: 25px;
             display: inline-block;
-            
+
         }
-        #p1{
+
+        #p1 {
             font-size: 150%
         }
-        .checkbox{
-           font-size: 150%;
+
+        .checkbox {
+            font-size: 150%;
             margin: 20px;
-            
+
         }
-        p{
+
+        p {
             margin: 25 px;
             padding: 20px;
             font-size: 110%;
         }
+
     </style>
 </head>
 
@@ -44,7 +51,7 @@
     <div>
         <ul class="ul1">
             <li><a class="main_nav" href="index.html">Home</a></li>
-            
+
         </ul>
     </div><br>
     <header>
@@ -54,17 +61,17 @@
     <div class="login">
         <form method="get">
             <label>*First Name:</label>
-            <input type="text" name="name" id="name"><br>
+            <input type="text" name="name" id="name" required="required"><br>
             <label> *Last Name:</label>
-            <input type="text" name="lastname" id="lastname"><br>
+            <input type="text" name="lastname" id="lastname" required="required"><br>
             <label> *E-mail:</label>
-            <input type="text" name="email" class="email"><br>
+            <input type="text" name="email" class="email" required="required"><br>
             <label> *Verify E-mail:</label>
-            <input type="text" name="email" class="email"><br>
+            <input type="text" name="email" class="email" required="required"><br>
             <label>*Password:</label>
-            <input type="password"><br>
+            <input type="password" required="required"><br>
             <label>* Verify Password:</label>
-            <input type="password"><br>
+            <input type="password" required="required"><br>
         </form>
     </div><br>
     <p id="p1"> Why have you decided to join our hunting family?</p>
@@ -78,7 +85,7 @@
     <input type="submit" value="Submit">
     <br>
     <div>
-    <img id="loginimage1" src="assignment-2/images/sunset.jpeg" alt="sunset being bowhunter">
+        <img id="loginimage1" src="assignment-2/images/sunset.jpeg" alt="sunset being bowhunter">
     </div>
 
 
